@@ -18,7 +18,7 @@ const BuildingDirectory = () => {
       <Text fontSize="lg" mb={6}>Find a building by name or location</Text>
       <InputGroup mb={6}>
         <InputLeftElement pointerEvents="none" children={<SearchIcon color="gray.300" />} />
-        <Input type="text" placeholder="Search by name, address or city..." />
+        <Input type="text" placeholder="Search for buildings..." />
       </InputGroup>
       <VStack spacing={4} align="stretch">
         {buildings.map((building, index) => (
