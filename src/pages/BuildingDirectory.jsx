@@ -1,7 +1,6 @@
-import { Box, Container, Flex, Heading, Input, InputGroup, InputLeftElement, Text, VStack, Image, Button, HStack, IconButton } from "@chakra-ui/react";
+import { Box, Container, Flex, Heading, Input, InputGroup, InputLeftElement, Text, VStack, Image, Button, HStack, IconButton, Link } from "@chakra-ui/react";
 import { SearchIcon } from "@chakra-ui/icons";
 import { FaGlobe, FaUserCircle } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 const buildings = [
   { name: "Building Name", address: "Address", image: "/images/building1.jpg" },
@@ -19,12 +18,12 @@ const BuildingDirectory = () => {
         <HStack spacing={8}>
           <Heading as="h1" size="lg">RealEstate</Heading>
           <HStack spacing={4}>
-            <Link to="/">Explore</Link>
-            <Link to="/">List your space</Link>
-            <Link to="/">Manage properties</Link>
-            <Link to="/">Bookings</Link>
-            <Link to="/">Inbox</Link>
-            <Link to="/">Help</Link>
+            <Link href="/">Explore</Link>
+            <Link href="/">List your space</Link>
+            <Link href="/">Manage properties</Link>
+            <Link href="/">Bookings</Link>
+            <Link href="/">Inbox</Link>
+            <Link href="/">Help</Link>
           </HStack>
         </HStack>
         <HStack spacing={4}>
