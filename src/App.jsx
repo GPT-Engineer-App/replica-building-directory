@@ -6,6 +6,7 @@ function App() {
     <Router>
       <Routes>
         <Route exact path="/" element={<BuildingDirectory />} />
+        <Route path="/building-directory" element={<BuildingDirectory />} />
       </Routes>
     </Router>
   );
