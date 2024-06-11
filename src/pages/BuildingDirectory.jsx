@@ -1,15 +1,15 @@
 import { Box, Container, Flex, Heading, Input, InputGroup, InputLeftElement, Text, VStack, Image, Button, HStack, IconButton } from "@chakra-ui/react";
 import { SearchIcon } from "@chakra-ui/icons";
-import { FaBuilding } from "react-icons/fa";
+import { FaGlobe, FaUserCircle } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const buildings = [
-  { name: "Building Name", address: "Address", image: "https://via.placeholder.com/50" },
-  { name: "Building Name", address: "Address", image: "https://via.placeholder.com/50" },
-  { name: "Building Name", address: "Address", image: "https://via.placeholder.com/50" },
-  { name: "Building Name", address: "Address", image: "https://via.placeholder.com/50" },
-  { name: "Building Name", address: "Address", image: "https://via.placeholder.com/50" },
-  { name: "Building Name", address: "Address", image: "https://via.placeholder.com/50" },
+  { name: "Building Name", address: "Address", image: "/images/building1.jpg" },
+  { name: "Building Name", address: "Address", image: "/images/building2.jpg" },
+  { name: "Building Name", address: "Address", image: "/images/building3.jpg" },
+  { name: "Building Name", address: "Address", image: "/images/building4.jpg" },
+  { name: "Building Name", address: "Address", image: "/images/building5.jpg" },
+  { name: "Building Name", address: "Address", image: "/images/building6.jpg" },
 ];
 
 const BuildingDirectory = () => {
@@ -28,8 +28,8 @@ const BuildingDirectory = () => {
           </HStack>
         </HStack>
         <HStack spacing={4}>
-          <IconButton icon={<FaBuilding />} aria-label="Language" />
-          <IconButton icon={<FaBuilding />} aria-label="Profile" />
+          <IconButton icon={<FaGlobe />} aria-label="Language" />
+          <IconButton icon={<FaUserCircle />} aria-label="Profile" />
         </HStack>
       </Flex>
       <Heading as="h1" size="xl" mb={2}>Building Directory</Heading>
