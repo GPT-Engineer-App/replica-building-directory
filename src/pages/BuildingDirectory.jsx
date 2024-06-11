@@ -29,7 +29,7 @@ const BuildingDirectory = () => {
 
   return (
     <Container maxW="container.xl" py={10}>
-      <Flex justify="space-between" align="center" mb={6} bg="blue.500" p={4} borderRadius="md">
+      <Flex justify="space-between" align="center" mb={6} bg="green.500" p={4} borderRadius="md">
         <HStack spacing={8}>
           <Heading as="h1" size="lg">RealEstate</Heading>
           <HStack spacing={4}>
